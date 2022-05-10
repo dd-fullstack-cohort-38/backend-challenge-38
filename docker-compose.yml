@@ -1,0 +1,31 @@
+version: "3"
+services:
+  sql:
+    build: ./sql
+    platform: linux/x86_64
+    ports:
+    - 3306:3306
+    volumes:
+      - backend-assesment:/var/lib/mysql
+    env_file:
+      - ./mysql.env
+    command: --default-authentication-plugin=mysql_native_password
+  node:
+    build: ./backend
+    depends_on:
+      - sql
+    env_file:
+      # Make sure to update this to match your project.
+      - mysql.env
+    environment:
+      - MYSQL_HOST=sql
+    ports:
+      - 8080:4200
+    volumes:
+      - ./backend/src:/home/node/app/src
+      - ./backend/utils:/home/node/app/utils/
+      - ./backend/tsconfig.json:/home/node/app/tsconfig.json
+volumes:
+  backend-assesment:
+
+
