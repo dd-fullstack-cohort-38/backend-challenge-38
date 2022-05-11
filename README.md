@@ -1,4 +1,5 @@
 # Backend Challenge
+# [Lecture Recording](https://cnm-edu.zoom.us/rec/share/ko55_dKMbV2hpV-4Ap0SoqMoXSqcoSaOAP44QTm4VvAKDbc80PIN7wmYpxSpcVGB.LeXB_fC-vpGul4LB)
 ## Part1 
 
 ### Getting Started
@@ -19,11 +20,13 @@ Using the conceptual model below create a DDL file named `asana.sql` and execute
 
 ##### Conceptual Model
 **Profile** \
-profileId (PK) \
-profileAboutMe \
-profileEmail \
-profileHash \
-profileName 
+profileId (PK)  binary(16)\
+profileAboutMe VARCHAR(255\
+profileEmail VARCHAR(320) \
+profileHash char(97)\
+profileName VARCHAR(64)
+UNIQUE(profileEmail)
+PRIMARY KEY profileId
     
  **Project** \
 projectId (PK) \
@@ -47,7 +50,7 @@ statusColor
 
  **TicketStatus** \
 ticketStatusStatusId \
-ticketStatusTicketId 
+ticketStatusTicketId \
 ticketStatusDate 
     
 **Relationships** \
