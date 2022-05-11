@@ -43,7 +43,7 @@ projectName
  ticketDueDate \
  ticketName
 
- **Status** \
+ **HttpStatus** \
 statusId (PK) \
 statusValue \
 statusColor 

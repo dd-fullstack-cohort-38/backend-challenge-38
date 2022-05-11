@@ -1,5 +1,5 @@
-export interface Status {
-  status: number,
-  data: any,
-  message: string | null,
+export interface Status{
+  statusId: string|null,
+  statusColor: string,
+  statusValue: string
 }
