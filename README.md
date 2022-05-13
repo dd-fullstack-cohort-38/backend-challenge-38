@@ -1,5 +1,7 @@
 # Backend Challenge
-# [Lecture Recording](https://cnm-edu.zoom.us/rec/share/ko55_dKMbV2hpV-4Ap0SoqMoXSqcoSaOAP44QTm4VvAKDbc80PIN7wmYpxSpcVGB.LeXB_fC-vpGul4LB)
+# [Express starter example starts at 2:02](https://cnm-edu.zoom.us/rec/share/YT1L7DXH_yXF79qaeCBHvh5Zx2X1JYq-eTWq6U6OyFT_nwXZ8HEmy8283iOfykhe.qjXyADDjbRPM2yon?startTime=1652296441000)
+# [Lecture Recording MySQL](https://cnm-edu.zoom.us/rec/share/ko55_dKMbV2hpV-4Ap0SoqMoXSqcoSaOAP44QTm4VvAKDbc80PIN7wmYpxSpcVGB.LeXB_fC-vpGul4LB)
+
 ## Part1 
 
 ### Getting Started
