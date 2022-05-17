@@ -1,4 +1,5 @@
 # Backend Challenge
+# [postTagPart2 and getTagByTagID](https://cnm-edu.zoom.us/rec/share/UTtVSuVh6r9mRFtftlXlvc-Ou4OrDEYuFzG2fLYqBplfHU-g31gkJ4alYjefVdm6.Iw_ATfNrWaKtktK6)
 # [postTag](https://cnm-edu.zoom.us/rec/share/Tu_rYySJRsrccgeP9-t_KgYUkm-ZWAj5AN_U2e7pJFIhfFYlhDwD42JHRSzJnO1X.sAONvSzvYuj8o2yw)
 # [Express starter example starts at 2:02](https://cnm-edu.zoom.us/rec/share/YT1L7DXH_yXF79qaeCBHvh5Zx2X1JYq-eTWq6U6OyFT_nwXZ8HEmy8283iOfykhe.qjXyADDjbRPM2yon?startTime=1652296441000)
 # [Lecture Recording MySQL](https://cnm-edu.zoom.us/rec/share/ko55_dKMbV2hpV-4Ap0SoqMoXSqcoSaOAP44QTm4VvAKDbc80PIN7wmYpxSpcVGB.LeXB_fC-vpGul4LB)
