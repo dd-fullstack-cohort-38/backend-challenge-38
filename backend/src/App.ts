@@ -3,6 +3,7 @@ import morgan from 'morgan'
 // Routes
 import { indexRoutes } from './apis/index.route'
 import { statusRoute } from './apis/status/status.route'
+import { tagRoute } from './apis/tag/tag.route'
 
 // The following class creates the app and instantiates the server
 export class App {
@@ -32,6 +33,7 @@ export class App {
   private routes () {
     this.app.use('/apis', indexRoutes)
     this.app.use('/apis/status', statusRoute)
+    this.app.use('/apis/tag', tagRoute)
   }
 
   // starts the server and tells the terminal to post a message that the server is running and on what port
