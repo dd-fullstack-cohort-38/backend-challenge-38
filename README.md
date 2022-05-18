@@ -1,4 +1,5 @@
 # Backend Challenge
+# [getStatusByStatusId](https://cnm-edu.zoom.us/rec/share/SNs52kl1luU9LqrcLMo7X-7K_O1TBT98iaY3yXmYDVBDW6HEGQ1sUPu3tg6iID4G.MwD2SiBTyYrHIZyQ)
 # [postTagPart2 and getTagByTagID](https://cnm-edu.zoom.us/rec/share/UTtVSuVh6r9mRFtftlXlvc-Ou4OrDEYuFzG2fLYqBplfHU-g31gkJ4alYjefVdm6.Iw_ATfNrWaKtktK6)
 # [postTag](https://cnm-edu.zoom.us/rec/share/Tu_rYySJRsrccgeP9-t_KgYUkm-ZWAj5AN_U2e7pJFIhfFYlhDwD42JHRSzJnO1X.sAONvSzvYuj8o2yw)
 # [Express starter example starts at 2:02](https://cnm-edu.zoom.us/rec/share/YT1L7DXH_yXF79qaeCBHvh5Zx2X1JYq-eTWq6U6OyFT_nwXZ8HEmy8283iOfykhe.qjXyADDjbRPM2yon?startTime=1652296441000)
@@ -47,7 +48,7 @@ projectName
  ticketDueDate \
  ticketName
 
- **HttpStatus** \
+ **Status** \
 statusId (PK) \
 statusValue \
 statusColor 
@@ -82,7 +83,7 @@ Write all of these in a second file called statements.sql and run them. You shou
 Create two REST endpoints in Express. One endpoint for getting status By statusId and one for creating a status. Both endpoints must  match the paths below. Each endpoint must have validation, a controller, and a mysqlEnabledFunction
 
 **Required Rest Endpoint paths**
-* post /apis/status
+* post /apis/status/
 * get /apis/status/:statusId
 
 **Tips**
